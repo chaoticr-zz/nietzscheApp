@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="190px"
+        android:layout_height="330px"
+        android:id="@+id/imageButton2"
+        android:layout_gravity="left|top"
+        android:src="@mipmap/nietzsche_obr1"
+        android:scaleType="centerCrop"
+        android:layout_margin="20px" />
+
+    <ImageButton
+        android:layout_width="190px"
+        android:layout_height="330px"
+        android:id="@+id/imageButton"
+        android:layout_gravity="center_horizontal|top"
+        android:src="@mipmap/nietzsche_obr2"
+        android:scaleType="centerCrop"
+        android:layout_margin="20px" />
+
+    <ImageButton
+        android:layout_width="190px"
+        android:layout_height="330px"
+        android:id="@+id/imageButton3"
+        android:layout_gravity="right|top"
+        android:src="@mipmap/nietzsche_obr3"
+        android:scaleType="centerCrop"
+        android:layout_margin="20px" />
+
+    <ImageButton
+        android:layout_width="190px"
+        android:layout_height="330px"
+        android:id="@+id/imageButton4"
+        android:layout_gravity="left|center_vertical"
+        android:src="@mipmap/nietzsche_obr4"
+        android:scaleType="centerCrop"
+        android:layout_margin="20px" />
+
+    <ImageButton
+        android:layout_width="190px"
+        android:layout_height="330px"
+        android:id="@+id/imageButton5"
+        android:layout_gravity="center"
+        android:src="@mipmap/nietzsche_obr5"
+        android:scaleType="centerCrop"
+        android:layout_margin="20px" />
+
+    <ImageButton
+        android:layout_width="190px"
+        android:layout_height="330px"
+        android:id="@+id/imageButton6"
+        android:layout_gravity="right|center_vertical"
+        android:src="@mipmap/nietzsche_obr6"
+        android:scaleType="centerCrop"
+        android:layout_margin="20px" />
+
+    <ImageButton
+        android:layout_width="190px"
+        android:layout_height="330px"
+        android:id="@+id/imageButton7"
+        android:layout_gravity="left|bottom"
+        android:src="@mipmap/nietzsche_obr7"
+        android:scaleType="centerCrop"
+        android:layout_margin="20px" />
+
+    <ImageButton
+        android:layout_width="190px"
+        android:layout_height="330px"
+        android:id="@+id/imageButton8"
+        android:layout_gravity="center_horizontal|bottom"
+        android:src="@mipmap/nietzsche_obr8"
+        android:scaleType="centerCrop"
+        android:layout_margin="20px" />
+
+    <Button
+        android:layout_width="190px"
+        android:layout_height="330px"
+        android:text="Mais..."
+        android:id="@+id/btn_Mais"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="20px"
+        android:onClick="btnMais"
+        android:nestedScrollingEnabled="false" />
+
+</FrameLayout>

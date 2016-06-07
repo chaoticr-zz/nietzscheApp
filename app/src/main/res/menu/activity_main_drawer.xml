@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_vida"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="Vida" />
+        <item
+            android:id="@+id/nav_obras"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="Obras" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Vídeos" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Fotos" />
+    </group>
+
+</menu>
