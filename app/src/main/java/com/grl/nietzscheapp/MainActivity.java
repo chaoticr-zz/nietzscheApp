@@ -1,5 +1,7 @@
 package com.grl.nietzscheapp;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -15,8 +17,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.glr.fragments.MainFragment;
+import com.glr.fragments.aulasFragment;
 import com.glr.fragments.obrasFragment;
 import com.glr.fragments.vidaFragment;
+import com.glr.fragments.videosFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -47,7 +51,10 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         android.app.FragmentManager fm = getFragmentManager();
-        fm.beginTransaction().replace(R.id.content_frame, new MainFragment()).commit();
+        fm.beginTransaction().replace(R.id.content_frame, new vidaFragment()).commit();
+        navigationView.getMenu().getItem(0).setChecked(true);
+
+
 
     }
 
@@ -96,18 +103,22 @@ public class MainActivity extends AppCompatActivity
             fm.beginTransaction().replace(R.id.content_frame, new obrasFragment()).commit();
         } else if (id == R.id.nav_vida) {
             fm.beginTransaction().replace(R.id.content_frame, new vidaFragment()).commit();
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_videos) {
+            fm.beginTransaction().replace(R.id.content_frame, new videosFragment()).commit();
+        } /*else if (id == R.id.nav_fotos) {
 
-        } else if (id == R.id.nav_manage) {
-
-        }/* else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
+        }*/ else if (id == R.id.nav_aulas) {
+            fm.beginTransaction().replace(R.id.content_frame, new aulasFragment()).commit();
+        }/* else if (id == R.id.nav_send) {
 
         }*/
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void btn_Vid1(View v){
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=wHWbZmg2hzU")));
     }
 }

@@ -11,13 +11,13 @@
             android:icon="@drawable/ic_book_black_24dp"
             android:title="Obras" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_videos"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Vídeos" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Fotos" />
+            android:id="@+id/nav_aulas"
+            android:icon="@drawable/ic_mode_edit_black_24dp"
+            android:title="Aulas"/>
     </group>
 
 </menu>
