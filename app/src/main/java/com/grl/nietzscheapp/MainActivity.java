@@ -119,6 +119,11 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void btn_Vid1(View v){
-        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=wHWbZmg2hzU")));
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=gHJzAAvISYU ")));
+    }
+
+    public void btn_au1(View v){
+        Intent iinent= new Intent(MainActivity.this, aulas.class);
+        startActivity(iinent);
     }
 }
