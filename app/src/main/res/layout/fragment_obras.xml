@@ -78,6 +78,8 @@
         android:layout_width="190px"
         android:layout_height="330px"
         android:text="Mais..."
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
         android:id="@+id/btn_Mais"
         android:layout_gravity="right|bottom"
         android:layout_margin="20px"

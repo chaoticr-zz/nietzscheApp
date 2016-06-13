@@ -6,6 +6,8 @@
         android:layout_width="260dp"
         android:layout_height="200dp"
         android:id="@+id/btn_Vid1"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
         android:layout_gravity="center"
         android:src="@mipmap/thumbn1"
         android:scaleType="fitCenter"

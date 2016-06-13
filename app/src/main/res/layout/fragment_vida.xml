@@ -25,6 +25,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Mais informações..."
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
         android:id="@+id/btn_minfo"
         android:layout_gravity="right|bottom" />
 </FrameLayout>

@@ -19,10 +19,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".aulas"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_aulas"
-            android:theme="@style/FullscreenTheme"></activity>
+            android:name=".aula1"
+            android:configChanges="orientation"
+            android:screenOrientation="locked" />
+        <activity android:name=".aula2" />
+        <activity android:name=".aula3" />
+        <activity android:name=".aula4" />
+        <activity android:name=".aula5" />
+        <activity android:name=".aula6" />
+        <activity android:name=".aula7" />
+        <activity android:name=".aula8" />
+        <activity android:name=".aula9" />
+        <activity android:name=".aula10" />
+        <activity android:name=".aula11"></activity>
     </application>
 
 </manifest>

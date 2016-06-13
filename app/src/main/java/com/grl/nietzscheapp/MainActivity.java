@@ -3,9 +3,6 @@ package com.grl.nietzscheapp;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v4.app.FragmentManager;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -13,14 +10,14 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.MenuItem;
 
-import com.glr.fragments.MainFragment;
-import com.glr.fragments.aulasFragment;
-import com.glr.fragments.obrasFragment;
-import com.glr.fragments.vidaFragment;
-import com.glr.fragments.videosFragment;
+import com.grl.nietzscheapp.fragments.aulasFragment;
+import com.grl.nietzscheapp.fragments.calFragment;
+import com.grl.nietzscheapp.fragments.obrasFragment;
+import com.grl.nietzscheapp.fragments.vidaFragment;
+import com.grl.nietzscheapp.fragments.videosFragment;
+
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -68,7 +65,7 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-    @Override
+    /*@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
@@ -82,13 +79,19 @@ public class MainActivity extends AppCompatActivity
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
+
+
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            new MaterialDialog.Builder(this)
+                    .title("Sobre")
+                    .content("Aplicativo desenvolvido por Guilherme Ramos Lima/nSlides e conteúdo disponibilizados pelo Colégio Positivo")
+                    .positiveText("Ok");
             return true;
         }
 
         return super.onOptionsItemSelected(item);
-    }
+    }*/
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
@@ -105,9 +108,9 @@ public class MainActivity extends AppCompatActivity
             fm.beginTransaction().replace(R.id.content_frame, new vidaFragment()).commit();
         } else if (id == R.id.nav_videos) {
             fm.beginTransaction().replace(R.id.content_frame, new videosFragment()).commit();
-        } /*else if (id == R.id.nav_fotos) {
-
-        }*/ else if (id == R.id.nav_aulas) {
+        } else if (id == R.id.nav_cal) {
+            fm.beginTransaction().replace(R.id.content_frame, new calFragment()).commit();
+        } else if (id == R.id.nav_aulas) {
             fm.beginTransaction().replace(R.id.content_frame, new aulasFragment()).commit();
         }/* else if (id == R.id.nav_send) {
 
@@ -123,7 +126,57 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void btn_au1(View v){
-        Intent iinent= new Intent(MainActivity.this, aulas.class);
-        startActivity(iinent);
+        Intent a = new Intent(MainActivity.this, aula1.class);
+        startActivity(a);
+    }
+
+    public void btn_au2(View v){
+        Intent a = new Intent(MainActivity.this, aula2.class);
+        startActivity(a);
+    }
+
+    public void btn_au3(View v){
+        Intent a = new Intent(MainActivity.this, aula3.class);
+        startActivity(a);
+    }
+
+    public void btn_au4(View v){
+        Intent a = new Intent(MainActivity.this, aula4.class);
+        startActivity(a);
+    }
+
+    public void btn_au5(View v){
+        Intent a = new Intent(MainActivity.this, aula5.class);
+        startActivity(a);
+    }
+
+    public void btn_au6(View v){
+        Intent a = new Intent(MainActivity.this, aula6.class);
+        startActivity(a);
+    }
+
+    public void btn_au7(View v){
+        Intent a = new Intent(MainActivity.this, aula7.class);
+        startActivity(a);
+    }
+
+    public void btn_au8(View v){
+        Intent a = new Intent(MainActivity.this, aula8.class);
+        startActivity(a);
+    }
+
+    public void btn_au9(View v){
+        Intent a = new Intent(MainActivity.this, aula9.class);
+        startActivity(a);
+    }
+
+    public void btn_au10(View v){
+        Intent a = new Intent(MainActivity.this, aula10.class);
+        startActivity(a);
+    }
+
+    public void btn_au11(View v){
+        Intent a = new Intent(MainActivity.this, aula11.class);
+        startActivity(a);
     }
 }

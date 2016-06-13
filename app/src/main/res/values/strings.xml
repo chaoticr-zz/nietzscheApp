@@ -9,4 +9,7 @@
     <string name="title_activity_aulas">aulas</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat sed orci quis pharetra. Integer nec lectus hendrerit, faucibus velit in, fringilla magna. Phasellus nec dolor risus. Vestibulum sollicitudin, mauris a tempor dapibus, urna ex tincidunt felis, et mattis eros dui at elit. Nullam ultrices, mi ut accumsan lacinia, tellus erat dignissim orci, ut vestibulum erat nisl nec nibh. Sed elit nisi, pulvinar eu pulvinar a, dapibus sed nunc. Curabitur pulvinar, tellus at tincidunt tempus, mi turpis vulputate lorem, nec lobortis metus ipsum et mauris. Aliquam nec enim porttitor diam dignissim rutrum sed sed leo. </string>
 </resources>

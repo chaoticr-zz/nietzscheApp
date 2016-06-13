@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView4" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="PARTE I: AVALIAÇÃO DISCURSIVA\n\n
+
+FILOSOFIA\n\n
+
+PERÍODO: durante a aula da semana de 22 a 26 de AGOSTO.\n
+
+- Atividade Filosófica (somente 15 grupos) (05 integrantes na equipe).\n
+
+- Valor da Atividade: 2,0 pontos.\n
+
+- 04 questões (discursivas)\n
+
+- Local: sala de aula\n
+
+- Prazo para realização da atividade: na 2ª aula da semana do dia 22/08 até 26/08\n
+
+- 2ª chamada ocorrerá entre os dias 29 a 31/08 e deve agendada com professor.\n\n
+
+- Conteúdo:
+
+NIETZSCHE, Friedrich. Sobre verdade e mentira no sentido extramoral (Aforismo 1).
+
+In: Obras Incompletas. São Paulo, Abril Cultural, Col. Os Pensadores, 1978."
+                android:id="@+id/textView8"
+                android:textAlignment="center"
+                android:textSize="13dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="\n\nPARTE II: AVALIAÇÃO ONLINE 01\n\n
+
+FILOSOFIA\n\n
+
+PERÍODO: 22 a 26 de AGOSTO.\n
+
+- Atividade Filosófica (individual).\n
+
+- Valor da Atividade: 8,0 pontos.\n
+
+- 08 questões (modelo Enem)\n
+
+- Local: em casa\n
+
+- Prazo para realização da atividade: do dia 22/08 até 26/08\n
+
+- Não há 2ª chamada da Atividade Online 01\n\n
+
+- Conteúdo:
+
+ NIETZSCHE, Friedrich. Sobre verdade e mentira no sentido extramoral (Aforismo 1).
+
+In: Obras Incompletas. São Paulo, Abril Cultural, Col. Os Pensadores, 1978."
+                android:id="@+id/textView9"
+                android:textAlignment="center"
+                android:textSize="13dp"
+                android:layout_marginTop="15dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
